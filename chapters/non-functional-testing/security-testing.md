@@ -206,7 +206,7 @@ Designing an ideal testing tool requires striking a balance between two measures
 
 >Here, a 'positive' instance indicates a _bug_ and a 'negative' instance indicates _benign code_. So, True Positives (TP) are _actual bugs_, and True Negatives (TN) are _actual benign code snippets_. Similarly, False Positives (FP) are _false bugs_ (or _false alarms_), and False Negatives (FN) are _bugs that weren't found_ (or _missed bugs_).
 
-A perfect testing tool is both and complete. However, this is an undecidable problem — given finite time, the tool will always be wrong for some input. In reality, tools often compromise on either FPs or FNs.
+A perfect testing tool is both sound and complete. However, this is an undecidable problem — given finite time, the tool will always be wrong for some input. In reality, tools often compromise on either FPs or FNs.
 
 Low FNs are ideal for security critical applications where a missed vulnerability can cause significant loss, e.g. banking apps. Low FPs are ideal for applications that do not have a lot of manpower to evaluate the correctness of each result.
 
